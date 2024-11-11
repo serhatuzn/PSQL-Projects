@@ -9,5 +9,5 @@ WHERE title LIKE ('T%') AND rating = 'G';
 SELECT COUNT(country) FROM country
 WHERE country = '_____%';
 -- 5)City tablosundaki şehir isimlerinin kaç tanesi 'R' veya r karakteri ile biter?
-SELECT COUNT (DISTINCT city) FROM city
+SELECT DISTINCT city FROM city
 WHERE city ILIKE 'R%r';
